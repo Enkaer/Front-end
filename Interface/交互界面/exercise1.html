@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>interface</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="option">
+        <div class="box1">Traditional Trade</div>
+        <div class="box2">NLP Trade</div>
+    </div>
+
+    <div class="header">
+        <div>
+            Client Name
+            <input id="Name" class="cname" placeholder="Text input" style="color:white">
+        </div>
+        <div>
+            Ticker
+            <input id="T" class="ticker" type="text" placeholder="Text input" style="color:white">
+        </div>
+        <div>
+            RIC
+            <input id="R" class="ric" type="text" placeholder="Text input" style="color:white">
+        </div>
+        <div>
+            Size
+            <input id="S" class="ric" type="text" placeholder="Text input" style="color:white">
+        </div>
+        <div>
+            Prize
+            <input id="P" type="text" placeholder="Text input" style="color:white">
+        </div>
+        <div>
+            Currency
+            <input id="C" type="text" placeholder="Text input" style="color:white">
+        </div>
+        <div>
+            Issuer Sector
+            <input id="I" type="text" placeholder="Text input" style="color:white">
+        </div>
+        <div>
+            Salesperson
+            <input id="salesperson" type="text" placeholder="Text input" style="color:white">
+        </div>
+        <div class="spe">
+            HT/PT
+            <select>
+                <!-- <option>HT</option> -->
+                <option>PT</option>
+                <option selected="selected">HT</option>
+            </select>
+        </div>
+
+        <div class="buy" id="buy">
+            <button id="buy">Buy</button>
+            <!-- <input type="button" value="Buy" @click id="buy"> -->
+        </div>
+
+        <div class="sell">
+            <!-- <input type="button" value="Sell" id="sell-btn"> -->
+            <button id="sell" class="ss">Sell</button>
+        </div>
+
+    </div>
+
+
+    <ul>
+        <li class="first">1D</li>
+        <li>1W</li>
+        <li>2W</li>
+        <li>1M</li>
+        <li>3M</li>
+        <li>6M</li>
+        <li>1Y</li>
+        <li>YTD</li>
+    </ul>
+
+    <table>
+        <tr class="biao">
+            <td>Date</td>
+            <td>Client Name</td>
+            <td>Client Side</td>
+            <td>Ticker</td>
+            <td>RIC</td>
+            <td>Size</td>
+            <td>Price</td>
+            <td>National USD</td>
+            <td>Currency</td>
+            <td>Issuer Sector</td>
+            <td>Salesperson</td>
+            <td>HT/PT</td>
+
+        </tr>
+        <!-- <tr>
+            <td>Date</td>
+            <td>Client Name</td>
+            <td>Buy</td>
+            <td>Ticker</td>
+            <td>RIC</td>
+            <td>Size</td>
+            <td>1,300.24</td>
+            <td>1,300.78</td>
+            <td>Currency</td>
+            <td>Issuer</td>
+            <td>Sector</td>
+            <td>Salesperson</td>
+            <td>HT/PT</td>
+        </tr>
+        <tr>
+            <td>Date</td>
+            <td>Client Name</td>
+            <td>Buy</td>
+            <td>Ticker</td>
+            <td>RIC</td>
+            <td>Size</td>
+            <td>1,300.24</td>
+            <td>1,300.78</td>
+            <td>Currency</td>
+            <td>Issuer</td>
+            <td>Sector</td>
+            <td>Salesperson</td>
+            <td>HT/PT</td>
+        </tr>
+        <tr>
+            <td>Date</td>
+            <td>Client Name</td>
+            <td>Buy</td>
+            <td>Ticker</td>
+            <td>RIC</td>
+            <td>Size</td>
+            <td>1,300.24</td>
+            <td>1,300.78</td>
+            <td>Currency</td>
+            <td>Issuer</td>
+            <td>Sector</td>
+            <td>Salesperson</td>
+            <td>HT/PT</td>
+        </tr>
+        <tr>
+            <td>Date</td>
+            <td>Client Name</td>
+            <td>Buy</td>
+            <td>Ticker</td>
+            <td>RIC</td>
+            <td>Size</td>
+            <td>1,300.24</td>
+            <td>1,300.78</td>
+            <td>Currency</td>
+            <td>Issuer</td>
+            <td>Sector</td>
+            <td>Salesperson</td>
+            <td>HT/PT</td>
+        </tr> -->
+    </table>
+    <span class="G">Total Buy: </span>
+    <span>1,300.26 </span>
+    <span class="R">Total Sell: </span>
+    <span>1,300.26 </span>
+    <span class="B">Net Quantity:</span>
+    <span>1,300.26 </span>
+    <span class="G">Total Buy Notional: </span>
+    <span>1,300.26 </span>
+    <span class="R">Total Sell Notional: </span>
+    <span>1,300.26 </span>
+    <span class="B">Net Notional: </span>
+    <span>1,300.26 </span>
+    <span class="B">Totall Records: </span>
+    <span>4</span>
+</body>
+<script src="index.js"></script>
+</body>
+
+</html>
